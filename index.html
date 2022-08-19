@@ -1,0 +1,61 @@
+<!DOCTYPE html
+PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <img class="logo" src="img/Vector.svg" alt="Logo de Alura LATAM.">
+            <h1 id="title">CoDecode</h1>
+            <p id="slogan">Tomando tu seguridad en serio.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="left-side">
+            <form>
+                <textarea id="inputBox" class="inputBox" rows="10" cols="70" placeholder="Ingrese el texto aqui"></textarea>
+            </form>
+            <div class="simbol">
+                <img src="img/simbol.svg" alt="Imagen simbolo exclamacion.">
+                <p>Solo letras minúsculas y sin acentos</p>
+            </div>
+            <input type="button" id="button-encrypt" value="Encriptar" onclick="encrypt()">
+            <input type="button" id="button-des" value="Desencriptar" onclick="decrypt()">
+            <!-- <div class="left-button"> -->
+                <!-- <input class="button" type="button" id="button-encrypt" value="Encriptar" onclick="encrypt()"> -->
+                <!-- <input class="button" type="button" id="button-des" value="Desencriptar" onclick="decrypt()"> -->
+            <!-- </div> -->
+        </div>
+
+        <div class="right-side">
+            <textarea class="output" id="output" rows="11" cols="20"></textarea>
+            <img class="draw" id="draw" src="img/draw.svg" alt="Muñeco de decoracion.">
+            <h2 id="text1">Ningún mensaje fue encontrado</h2>
+            <p id="text2">Ingresa el texto que desees encriptar o desencriptar."</p>
+            <input type="button" class="button" id="button-copy" value="Copiar" onclick="copy()">
+        </div>
+    </main>
+
+    <footer>
+        <a href="https://www.linkedin.com/in/rodrigo-hormazabal-cybersec/" target="_blank">
+            <img src="img/linkedin-svgrepo-com.svg" alt="Vinculo a Linkedin">
+        </a>
+         <a href="https://github.com/CainSoulless" target="_blank">
+            <img src="img/github-svgrepo-com.svg" alt="Vinculo a Github">
+        </a>
+        <p><span class="emp">Developed by Rodrigo Hormazabal</span></em></p>
+    </footer>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
