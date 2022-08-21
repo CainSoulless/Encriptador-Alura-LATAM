@@ -1,6 +1,6 @@
 body{
     font-family: 'Inter', sans-serif;
-    background: #E5E5E5;
+    background: #DBCDEE;
 }
 
 .caja{
@@ -22,30 +22,28 @@ body{
     font-size: 64px;
     font-weight: bold;
     text-shadow: 18px 18px 19px #000000;
-    color: #0A3871;
+    color: #503C6B;
 }
 
 #slogan{
     text-align: center;
     margin: 0 auto;
-    color: #0A3871;
+    color: #503C6B; 
     font-style: italic;
-}
+} 
 
-.container{
-    margin: auto;
-    /* margin-bottom: -15%; */
-    width: 100%;
-    height: 715px;
-    padding: 5px;
-    /* background: blue; */
-}
+.container{ 
+    margin: auto; 
+    width: 100%; 
+    height: 720px; 
+    /* padding: 5px;  */
+} 
 
-.left-side{
-    float: left;
-    margin-left: 158px;
-    width: 55%;
-    height: 60%;
+.left-side{ 
+    float: left; 
+    margin-left: 8.5%;
+    width: 55%; 
+    height: 100%; 
 }
 
 .inputBox{
@@ -59,8 +57,8 @@ body{
     border: none;
     outline: none;
     resize: none;
-    color: #0A3871;
-    background: #E5E5E5;
+    color: #503C6B;
+    background: #DBCDEE;
 }
 
 .right-side{
@@ -82,7 +80,7 @@ body{
     width: 336px;
     height: 58px;
     font-style: normal;
-    color: #343A40;
+    color: #635C6B;
     text-align: center;
     font-weight: 700;
     font-size: 24px;
@@ -96,7 +94,7 @@ body{
     display: block;
     padding: 10px;
 
-    color: #495057;
+    color: #635C6B;
 }
 
 .simbol{
@@ -113,7 +111,7 @@ body{
 
 .simbol p{
     margin-bottom: 17px;
-    color: #495057;
+    color: #635C6B;
 }
 
 /* Selecting all input tags inside the left-button class. */
@@ -123,7 +121,7 @@ body{
     padding: 22px;
     font-size: 16px;
     font-weight: 400;
-    border: 2px solid #0A3871;
+    border: 2px solid #503C6B;
 
     /* animation */
     transition: 200ms;
@@ -132,12 +130,12 @@ body{
 #button-encrypt{
     margin-left: 15%;
     color: white;
-    background: #0A3871;
+    background: #503C6B;
 }
 
 #button-des{
-    color: #0A3871;
-    background: #D8DFE8;
+    color: #635C6B;
+    background: #DBCDEE;
     margin-left: 10px;
 }
 
@@ -147,6 +145,7 @@ body{
     display: none;
     margin: 0 auto;
     padding: 20px;
+    color: #4D4854;
     border: none;
     resize: none;
     outline: none;
@@ -174,31 +173,23 @@ body{
 }
 
 footer{
+    width: 100%;
+    height: 100px;
     font-weight: bold;
     color: #E5E5E5;
     background: #000000;
-    /* background: red; */
-
-    padding: 44px;
+    margin-top: 2%
 }
 
-footer img{
-    width: 1.5%;
-    float: left;
-    margin: -0.5% 0.5%;
+.img-link{
+    margin: 15px;
+    width: 1%;
     filter: invert(1);
-    background: white;
 }
 
-footer a{
-    
+footer p{
+    position: absolute;
+    float: right;
+    left: 115px;
+    bottom: 5px;
 }
-
-.emp{
-    font-style: italic;
-}
-
-/* Phone optimization. */
-/* @media screen and (max-width:480px){ */
-/*      */
-/* } */
